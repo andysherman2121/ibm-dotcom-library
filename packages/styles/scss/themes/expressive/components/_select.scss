@@ -26,4 +26,9 @@
     height: rem(20px);
     width: rem(20px);
   }
+  .#{$prefix}--select--inline.#{$prefix}--select--invalid .#{$prefix}--label,
+  .#{$prefix}--select--inline.#{$prefix}--select--invalid
+    .#{$prefix}--form__helper-text {
+    margin-top: 1rem;
+  }
 }
