@@ -18,9 +18,9 @@ const { prefix } = settings;
  */
 const HorizontalRule = ({ type, size, contrast, weight }) => (
   <hr
-    data-autoid={`${stablePrefix}--hr`}
+    data-autoid={`${stablePrefix}--hr`} //dds--hr
     className={classnames(`${prefix}--hr`, {
-      [`${prefix}--hr--${type}`]: type,
+      [`${prefix}--hr--${type}`]: type, // bx--hr
       [`${prefix}--hr--${contrast}`]: contrast,
       [`${prefix}--hr--${size}`]: size,
       [`${prefix}--hr--${weight}`]: weight,
